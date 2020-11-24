@@ -1,6 +1,8 @@
 {
     "name": "nigerian-covid19-info",
     "version": "0.0.1",
+    "description": "",
+    "repository": {},
     "main": "gui.js",
     "files": [
         "gui.js",
@@ -9,7 +11,9 @@
     "scripts": {
         "start": "node gui.js"
     },
-    "dependencies": {},
+    "dependencies": {
+        "node-fetch": "^2.6.1"
+    },
     "author": "Adeboye Emmanuel (https://github.com/p1st1s/)",
     "contributors": [],
     "license": "Apache-2.0"
