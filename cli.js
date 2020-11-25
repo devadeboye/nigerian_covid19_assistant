@@ -1,14 +1,6 @@
-const fetchData = require('./lib/fetch-data.js')
+const assistant = require('./lib/assistant.js');
+const bob = new assistant.Assistant('Bob');
 
-const foo = async () => {
-    let x = await fetchData.getNationalSummary()
-    console.log(x)
-}
-
-const bar = async () => {
-    let x = await fetchData.getFullNationalDetails()
-    console.log(x)
-}
-
-foo()
-bar()
+bob.greet();
+bob.presentNationalSummaryData();
+//bob.presentFullDetails();
