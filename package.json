@@ -3,18 +3,18 @@
     "version": "0.0.1",
     "description": "",
     "repository": {},
-    "main": "gui.js",
+    "main": "cli.js",
     "files": [
-        "gui.js",
+        "cli.js",
         "lib/"
     ],
     "scripts": {
-        "start": "node gui.js"
+        "start": "node cli.js"
     },
     "dependencies": {
         "node-fetch": "^2.6.1"
     },
-    "author": "Adeboye Emmanuel (https://github.com/p1st1s/)",
+    "author": "Adeboye Emmanuel (https://github.com/devadeboye/)",
     "contributors": [],
     "license": "Apache-2.0"
 }
