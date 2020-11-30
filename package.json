@@ -9,12 +9,16 @@
         "lib/"
     ],
     "scripts": {
-        "start": "node cli.js"
+        "start": "node cli.js",
+        "test": "mocha --timeout 15000"
     },
     "dependencies": {
         "node-fetch": "^2.6.1"
     },
     "author": "Adeboye Emmanuel (https://github.com/devadeboye/)",
     "contributors": [],
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "mocha": "^8.2.1"
+    }
 }
